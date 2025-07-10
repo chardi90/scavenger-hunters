@@ -1,7 +1,78 @@
-h1 {
+body {
+  background-color: #272044;
   font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/scavenger-header-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 200px 0;
+  text-align: center;
+}
+
+h1 {
   font-size: 96px;
-  font-weight: 700;
   font-style: normal;
-  line-height: 144px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header a {
+  background-color: #fff;
+  color: aqua;
+  display: inline-block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  margin-top: 32px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
 }
