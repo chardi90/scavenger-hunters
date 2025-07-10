@@ -176,11 +176,17 @@ footer a {
 }
 
 .img-responsive {
-  max-width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .text-center {
   text-align: center;
+}
+
+.embed {
+  aspect-ratio: 1/1;
+  width: 100%;
 }
 
 .card {
@@ -189,6 +195,10 @@ footer a {
 
 .card-header {
   max-width: 100%;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-body {
@@ -236,5 +246,13 @@ footer a {
 
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
