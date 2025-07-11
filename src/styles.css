@@ -250,6 +250,10 @@ footer a {
     padding: 60px 0;
   }
 
+  header img {
+    width: 100%;
+  }
+
   h1 {
     font-size: 48px;
   }
@@ -262,6 +266,11 @@ footer a {
     font-size: 12px;
   }
 
+  main h2,
+  main h3 {
+    text-align: center;
+  }
+
   section {
     padding: 30px;
   }
@@ -272,6 +281,12 @@ footer a {
 
   .card-header img {
     display: none;
+  }
+
+  .card-body {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
 
   .embed {
