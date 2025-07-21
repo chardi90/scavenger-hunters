@@ -261,7 +261,7 @@ footer a {
   display: block;
   justify-content: center;
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 400px;
   padding: 50px 100px;
 }
 
@@ -271,7 +271,7 @@ footer a {
 }
 
 .scavenger-container .btn {
-  max-width: 400px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
@@ -321,5 +321,10 @@ footer a {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  .scavenger-container {
+    max-width: 400px;
+    padding: 50px 10px;
   }
 }
