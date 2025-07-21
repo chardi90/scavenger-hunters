@@ -257,6 +257,24 @@ footer a {
   display: block;
 }
 
+.scavenger-container {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 50px 100px;
+}
+
+.scavenger-hunt-page {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.scavenger-container .btn {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
