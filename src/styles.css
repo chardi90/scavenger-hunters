@@ -305,6 +305,13 @@ footer a {
     padding: 30px;
   }
 
+  footer {
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }
