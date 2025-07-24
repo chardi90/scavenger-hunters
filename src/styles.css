@@ -189,7 +189,7 @@ footer a {
 
 .intro-img {
   display: block;
-  max-height: 500px;
+  max-height: 400px;
   margin: 0 auto;
 }
 
@@ -328,6 +328,14 @@ footer a {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  .intro-img {
+    height: 500px;
+  }
+
+  .intro-text {
+    text-align: center;
   }
 
   .scavenger-container {
